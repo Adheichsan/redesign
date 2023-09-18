@@ -41,7 +41,7 @@ function DeadLink() {
             <Row>
               {filteredProducts.map((detail) => {
                 return (
-                  <Col key={detail.id} className="sm:w-1/2">
+                  <Col key={detail.id} className="sm:w-1/2 exiting">
                     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                       <Link href="/">
                         <Image

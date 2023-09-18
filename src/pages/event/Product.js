@@ -32,7 +32,7 @@ function Product() {
         <Container>
           <Row>
             <Col>
-              <h1 className="mx-auto pb-10 text-4xl font-bold text-center text-slate-500 md:text-4xl">
+              <h1 className="pb-10 mx-auto text-4xl font-bold text-center text-slate-500 md:text-4xl">
                 Chamber 1 Virtual Training
               </h1>
             </Col>
@@ -41,7 +41,7 @@ function Product() {
             {firstfilter.map((product) => {
               return (
                 <Col key={product.id} className="w-full p-2 col-12 col-md-6 col-lg-4">
-                  <div className="flex flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow custom-col mx-auto">
+                  <div className="flex flex-col max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow custom-col">
                     <Link href={`events/${product.id}`}>
                       <Image
                         src={product.image}
@@ -70,7 +70,7 @@ function Product() {
         <Container>
           <Row>
             <Col>
-              <h1 className="mx-auto pb-10 text-4xl font-bold text-center text-slate-500 md:text-4xl">
+              <h1 className="pb-10 mx-auto text-4xl font-bold text-center text-slate-500 md:text-4xl">
                 Chamber 2 Virtual Tour
               </h1>
             </Col>
@@ -78,8 +78,8 @@ function Product() {
           <Row>
             {secondFilter.map((product) => {
               return (
-                <Col className="py-3">
-                  <div className="flex flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow custom-col2 mx-auto">
+                <Col className="py-3" key={product.id}>
+                  <div className="flex flex-col max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow custom-col2">
                     <Link href={`events/${product.id}`}>
                       <Image
                         src={product.image}
