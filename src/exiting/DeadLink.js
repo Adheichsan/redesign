@@ -24,7 +24,7 @@ function DeadLink() {
           }}
         >
           <div className="absolute inset-x-0 mt-10 text-4xl font-bold text-center text-black transform -translate-y-1/2 top-1/2">
-            Sorry, the page you're looking for doesn't exist!
+            Sorry, the page youre looking for doesnt exist!
           </div>
         </div>
       </div>
