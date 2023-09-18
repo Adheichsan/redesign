@@ -28,48 +28,8 @@ function Footer() {
               Jl. Gatot Subroto No.Kav. 52, RT.6/RW.1, West Kuningan, <br />
               Mampang Prapatan, South Jakarta City, Jakarta 12710
             </span>
-            <span className="block pt-5 text-sm font-bold">
-              contact@smarteye.id
-            </span>
-            <span className="block py-5 text-sm">
-              +62 8118 982 11 - WhatsApp and call
-            </span>
-            <span className="block text-sm">
-              +62 8129 312 95711 - WhatsApp Only
-            </span>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-            <div>
-              <h2 className="mb-6 text-sm font-semibold text-white">
-                More Events
-              </h2>
-              <ul className="font-medium text-white">
-                <li className="mb-4">
-                  <Link
-                    href="https://www.smarteye.id/vr-tour/"
-                    class="hover:text-slate-300"
-                  >
-                    VR Tour
-                  </Link>
-                </li>
-                <li className="mb-4">
-                  <Link
-                    href="https://www.smarteye.id/vr-expo/"
-                    className="hover:text-slate-300"
-                  >
-                    VR Expo
-                  </Link>
-                </li>
-                <li className="mb-4">
-                  <Link
-                    href="https://confes.itdri.id/"
-                    className="hover:text-slate-300"
-                  >
-                    Virtual Convention Center
-                  </Link>
-                </li>
-              </ul>
-            </div>
             <div className="ml-10">
               <h2 className="mb-6 text-sm font-semibold text-white">Menu</h2>
               <ul className="font-medium text-white">
@@ -87,6 +47,31 @@ function Footer() {
                   <Link href="/about" className="hover:text-slate-300">
                     About
                   </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="cursor-pointer">
+              <ul className="font-medium text-white">
+                <li className="mb-4">
+                  <h1
+                    class="hover:text-slate-300"
+                  >
+                    contact@smarteye.id
+                  </h1>
+                </li>
+                <li className="mb-4">
+                  <h1
+                    className="hover:text-slate-300"
+                  >
+                    +62 8118 982 11 - WhatsApp and call
+                  </h1>
+                </li>
+                <li className="mb-4">
+                  <h1
+                    className="hover:text-slate-300"
+                  >
+                    +62 8129 312 95711 - WhatsApp Only
+                  </h1>
                 </li>
               </ul>
             </div>

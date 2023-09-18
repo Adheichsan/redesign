@@ -37,7 +37,7 @@ function Homepages() {
                   href="/events"
                   className="px-10 py-2 text-white rounded bg-slate-500 hover:bg-slate-700"
                 >
-                  Explore Room
+                  Explore room
                 </Link>
               </Col>
               <Col className="sm:ml-6 sm:flex-grow">
@@ -88,7 +88,7 @@ function Homepages() {
                       href="/events"
                       className="px-10 py-2 text-white rounded-lg bg-slate-500 hover:bg-slate-700"
                     >
-                      Lihat Detail
+                      Lihat detail
                     </Link>
                   </Col>
                   <Col
@@ -230,13 +230,13 @@ function Homepages() {
                     href="https://api.whatsapp.com/send/?phone=62811898211&text&app_absent=0"
                     className="px-6 py-2 mt-3 ml-3 mr-3 text-white rounded bg-slate-400 hover:bg-slate-700"
                   >
-                    Hubungi Kami
+                    Hubungi kami
                   </Link>
                   <Link
                     href="https://www.smarteye.id/"
                     className="px-6 py-2 mt-3 ml-3 mr-3 text-white rounded bg-slate-400 hover:bg-slate-700"
                   >
-                    Info Lainnya
+                    Info lainnya
                   </Link>
                 </div>
               </Col>

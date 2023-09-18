@@ -123,29 +123,29 @@ function Navbar() {
                 >
                   <li>
                     <Link
-                      href="https://www.smarteye.id/vr-tour/"
+                      href="/events"
                       onClick={closeMobileMenu}
                       className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
-                      VR Tour
+                      Chamber 1 Virtual Training
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="https://www.smarteye.id/vr-expo/"
+                      href="/events"
                       onClick={closeMobileMenu}
                       className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
-                      VR Expo
+                      Chamber 2 Virtual Tour
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="https://confes.itdri.id/"
+                      href="/events"
                       onClick={closeMobileMenu}
                       className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
-                      Virtual Convention Center
+                      VR Box Section
                     </Link>
                   </li>
                 </ul>
