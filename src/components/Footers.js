@@ -12,6 +12,8 @@ function Footer() {
             <Link href="/" className="flex items-center">
               <Image
                 src="/icons/favicon.png"
+                width={40}
+                height={40}
                 alt="smarteye-logo"
                 className="mr-3 logofuter"
               />

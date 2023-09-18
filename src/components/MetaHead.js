@@ -20,7 +20,7 @@ function MetaHead(props) {
         property="og:description"
         content="Wujudkan imajinasi anda menjadi kenyataan bersama kami, dengan teknologi virtual dan augmented reality."
       />
-      <meta property="og:image" content="/public/images/homepage.png" />
+      <meta property="og:image" content="/images/homepage.png" />
       <meta property="og:type" content="article" />
       <meta
         name="twitter:card"
@@ -31,7 +31,6 @@ function MetaHead(props) {
       <meta property="whatsapp:number" content="smarteye.id"/>
       <meta property="instagram:username" content="smarteyeid"/>
       <meta property="discord:server" content="smarteye.id" />
-      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </Head>
   );
 }
