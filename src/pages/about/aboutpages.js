@@ -148,7 +148,7 @@ function Aboutpages() {
                     <Row className="py-5">
                         <Col>
                             <ol className="text-center">
-                                <li className="py-3">VR Innovation Indonesia Win 1st Position in Paris for Global <span className="font-bold">L'Oreal</span> VR Competition</li>
+                                <li className="py-3">VR Innovation Indonesia Win 1st Position in Paris for Global <span className="font-bold">L"Oreal</span> VR Competition</li>
                                 <li className="py-3">VR Innovation enter the final stage for <span className="font-bold">Pertamina</span> Group innovation competition</li>
                                 <li className="py-3">VR Innovation goes to Dubai <span className="font-bold">(SKK Migas)</span></li>
                                 <li className="py-3">The first AR Games at US Embassy - Indonesia <span className="font-bold">(@america)</span></li>
