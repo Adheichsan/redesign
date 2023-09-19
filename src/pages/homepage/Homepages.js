@@ -107,6 +107,23 @@ function Homepages() {
                 </div>
               ))}
             </Row>
+
+            <style jsx>{`
+              @media (max-width: 768px) {
+                .flex-row {
+                  flex-direction: column;
+                }
+                .flex-row-reverse {
+                  flex-direction: column-reverse;
+                }
+                .order-1 {
+                  order: 1;
+                }
+                .order-2 {
+                  order: 2;
+                }
+              }
+            `}</style>
           </Container>
         </div>
         {/* CONTENT VR END */}
