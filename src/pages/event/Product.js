@@ -66,6 +66,7 @@ function Product() {
       {/* CHAMBER 1 END */}
 
       {/* CHAMBER 2 */}
+      <section id="tour" className="pt-10">
       <div className="py-10 events2">
         <Container>
           <Row>
@@ -101,9 +102,11 @@ function Product() {
           </Row>
         </Container>
       </div>
+      </section>
       {/* // CHAMBER 2 END */}
 
       {/* BOXSECTION */}
+      <section id="box" className="pt-10">
       <div className="pt-10 events3">
         <Container>
           <Row>
@@ -139,6 +142,7 @@ function Product() {
           </Row>
         </Container>
       </div>
+      </section>
     </>
     //   BOX SECTION END
   );
