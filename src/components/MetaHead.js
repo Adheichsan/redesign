@@ -20,16 +20,20 @@ function MetaHead(props) {
         property="og:description"
         content="Wujudkan imajinasi anda menjadi kenyataan bersama kami, dengan teknologi virtual dan augmented reality."
       />
-      <meta property="og:image" content="/images/homepage.png" />
-      <meta property="og:type" content="article" />
-      <meta
-        name="twitter:card"
-        content="Wujudkan imajinasi anda menjadi kenyataan bersama kami, dengan teknologi virtual dan augmented reality."
-      />
-      <meta name="twitter:site" content="smarteye.id" />
-      <meta name="twitter:creator" content="smarteye.id" />
-      <meta property="whatsapp:number" content="smarteye.id"/>
-      <meta property="instagram:username" content="smarteyeid"/>
+      <meta property="og:image" content="/logo/logo-192.jpg" />
+      <meta property="og:image" itemprop="image" content="/logo/logo-192.jpg"></meta>
+      <meta property="og:type" content="website"/>
+      <meta name="theme-color" content="#D8D9DA"/>
+
+      {/* twitter */}
+      <meta property="twitter:card" content="/homepages/homepage.png" />
+      <meta property="twitter:url" content={props.url} />
+      <meta property="twitter:title" content="Jasa Virtual Reality & Augmented Reality by smarteye.id" />
+      <meta property="twitter:description" content="Wujudkan imajinasi anda menjadi kenyataan bersama kami, dengan teknologi virtual dan augmented reality."/>
+      <meta property="twitter:image" content="/logo/logo-192.jpg" />
+      
+      <meta property="whatsapp:number" content="smarteye.id" />
+      <meta property="instagram:username" content="smarteyeid" />
       <meta property="discord:server" content="smarteye.id" />
     </Head>
   );
