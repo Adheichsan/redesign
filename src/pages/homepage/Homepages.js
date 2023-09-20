@@ -250,7 +250,7 @@ function Homepages() {
                     Hubungi kami
                   </Link>
                   <Link
-                    href="https://www.smarteye.id/"
+                    href="https://smarteye.id/"
                     className="px-6 py-2 mt-3 ml-3 mr-3 text-white rounded bg-slate-400 hover:bg-slate-700"
                   >
                     Info lainnya
