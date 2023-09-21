@@ -101,7 +101,7 @@ function Homepages() {
                       height={300}
                       width={500}
                       alt={value.title}
-                      className="object-cover align-items-center"
+                      className="object-cover align-items-center rounded-md"
                     />
                   </Col>
                 </div>

@@ -98,7 +98,14 @@ function Aboutpages() {
                             className="object-contain"
                         />
                         <Image 
-                            src='/clients/SC-johnson-logo.png'
+                            src='/clients/LogoPertaminaGas.png'
+                            width={300}
+                            height={300}
+                            alt="Pertamina Gas"
+                            className="object-contain"
+                        />
+                        <Image 
+                            src='/clients/SCJohsonLogo.png'
                             width={150}
                             height={150}
                             alt="SC-Johnson"
@@ -129,7 +136,35 @@ function Aboutpages() {
                             src='/clients/logoAdmedika.png'
                             width={150}
                             height={150}
-                            alt="summarecon"
+                            alt="Admedika"
+                            className="object-contain"
+                        />
+                        <Image 
+                            src='/clients/LogoTelkomProperty.png'
+                            width={150}
+                            height={150}
+                            alt="Telkom Property"
+                            className="object-contain"
+                        />
+                        <Image 
+                            src='/clients/LogoTelkomsel.png'
+                            width={150}
+                            height={150}
+                            alt="Telkomsel"
+                            className="object-contain"
+                        />
+                        <Image 
+                            src='/clients/LogoPPurban.png'
+                            width={150}
+                            height={150}
+                            alt="Urban PP"
+                            className="object-contain"
+                        />
+                        <Image 
+                            src='/clients/LogoToyota.png'
+                            width={150}
+                            height={150}
+                            alt="Toyota"
                             className="object-contain"
                         />
                     </Row>
