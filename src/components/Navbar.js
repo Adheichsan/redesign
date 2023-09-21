@@ -91,7 +91,7 @@ function Navbar() {
                 aria-controls="desktopDropdown"
                 aria-expanded={isDesktopDropdownOpen}
               >
-                More Events{" "}
+                Section{" "}
                 <svg
                   className={`w-2.5 h-2.5 ml-2.5 transition-transform ${
                     isDesktopDropdownOpen ? "rotate-180" : "rotate-0"
@@ -166,14 +166,6 @@ function Navbar() {
                 className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-slate-400 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/events"
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-slate-400 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Events
               </Link>
             </li>
             <li>

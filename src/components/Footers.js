@@ -40,7 +40,7 @@ function Footer() {
                 </li>
                 <li className="mb-4">
                   <Link href="/events" className="hover:text-slate-300">
-                    Events
+                    Section
                   </Link>
                 </li>
                 <li>
